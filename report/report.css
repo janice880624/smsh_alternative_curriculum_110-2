@@ -1,0 +1,36 @@
+header{
+    background-color: #274c5e;
+    margin: 0px 0px 10px 0px;
+    padding: 1px 0px;
+}
+
+body{
+    margin: 0px;
+    background-image: url("img/code_bg.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#head{
+    margin: 5px 0px;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #fffcf0;
+    font-family: Microsoft JhengHei;
+}
+
+#a_img{
+    width: 450px;
+    margin: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,1.00);
+}
+
+#content {
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
