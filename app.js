@@ -1,14 +1,17 @@
-document.getElementById("webppt").addEventListener("click", function () {
+function webclassclick (){
+  console.log("web 被點擊")
   swal({
-    icon: "info",
+    title: "網頁設計入門",
+    text: "請選擇難易度",
+    icon: "success",
     buttons: {
       Btn: false,
       first: {
-        text: "first",
+        text: "入門",
         visible: true
       },
       second: {
-        text: "second",
+        text: "進階",
         visible: true
       }
     }
@@ -22,4 +25,13 @@ document.getElementById("webppt").addEventListener("click", function () {
         "https://www.canva.com/design/DAE6Z6oy_ZY/GLLAM2rKYUpf4WlOL3DU-Q/view";
     }
   });
-});
+}
+
+function imgclick (){
+  console.log("web 被點擊")
+  swal({
+    title: "尚未開放",
+    text: "可以期待一下喔~~",
+    icon: "error",
+  });
+}
