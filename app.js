@@ -31,7 +31,7 @@ function imgclick (){
   console.log("web 被點擊")
   swal({
     title: "尚未開放",
-    text: "可以期待一下喔~~",
+    text: "請選擇難易度",
     icon: "error",
   });
 }
