@@ -7,11 +7,11 @@ function webclassclick (){
     buttons: {
       Btn: false,
       first: {
-        text: "入門",
+        text: "HTML",
         visible: true
       },
       second: {
-        text: "進階",
+        text: "CSS",
         visible: true
       }
     }
