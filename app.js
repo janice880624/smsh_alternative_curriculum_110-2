@@ -13,6 +13,10 @@ function webclassclick (){
       second: {
         text: "CSS",
         visible: true
+      },
+      third: {
+        text: "小組網站",
+        visible: true
       }
     }
   }).then((value) => {
@@ -23,6 +27,10 @@ function webclassclick (){
     if (value === "second") {
       window.location.href =
         "https://www.canva.com/design/DAE6Z6oy_ZY/GLLAM2rKYUpf4WlOL3DU-Q/view";
+    }
+    if (value === "third") {
+      window.location.href =
+        "https://www.canva.com/design/DAE9F7vOqlU/AlCa5HCysUfCki7o3CLulA/view";
     }
   });
 }
