@@ -35,6 +35,27 @@ function webclassclick (){
   });
 }
 
+function opclick (){
+  console.log("web 被點擊")
+  swal({
+    title: "Open Processing",
+    text: "請選擇難易度",
+    icon: "success",
+    buttons: {
+      Btn: false,
+      first: {
+        text: "初階",
+        visible: true
+      }
+    }
+  }).then((value) => {
+    if (value === "first") {
+      window.location.href =
+        "https://www.canva.com/design/DAE1Jo9wfg4/GQVZ4teoA59ZqsXUqrf9PA/view";
+    }
+  });
+}
+
 function imgclick (){
   console.log("web 被點擊")
   swal({
