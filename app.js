@@ -11,10 +11,14 @@ function webclassclick (){
         visible: true
       },
       second: {
-        text: "CSS",
+        text: "CSS-1",
         visible: true
       },
       third: {
+        text: "CSS-2",
+        visible: true
+      },
+      fourth: {
         text: "小組網站",
         visible: true
       }
@@ -29,6 +33,10 @@ function webclassclick (){
         "https://www.canva.com/design/DAE6Z6oy_ZY/GLLAM2rKYUpf4WlOL3DU-Q/view";
     }
     if (value === "third") {
+      window.location.href =
+        "https://www.canva.com/design/DAE85hoXRVQ/n0N6VeTJS8jxKJEsV4ut7w/view";
+    }
+    if (value === "fourth") {
       window.location.href =
         "https://www.canva.com/design/DAE9F7vOqlU/AlCa5HCysUfCki7o3CLulA/view";
     }
